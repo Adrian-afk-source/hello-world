@@ -1,10 +1,7 @@
-import math
+r = int(input("Enter the radius"))
+p = 3.14*r**2
+print("The area of the principal is: ",p)
 
-def calculate_circle_area(radius):
-    """Calculates the area of a circle given its radius."""
-    return math.pi * radius**2
-
-if __name__ == "__main__":
-    radius = float(input("Enter the radius of the circle: "))
-    radius = calculate_circle_area(radius)
-    print(f"The area of the circle is: {area:.2f}")
+#This program calculates the radius of pie
+#Adrian Garcia
+#10/8/2024
